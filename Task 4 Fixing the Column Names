@@ -1,0 +1,17 @@
+Uno de las primeras cosas que se aprecian de nuestro dataset en la vista de "Datos"
+es que las columnas no tienen el nombre de nuestro dataset original. Sin embargo,
+para ponerle a los campos los nombres originales tenemos los siguientes pasos:
+1. En la ventana de "Datos", nos vamos a la pestaña de "Inicio" y seleccionamos la
+opción "Transformar datos". El problema ahora es que en la  tenemos datos no desea-
+dos como Xs y abajo de estas están los nombres originales de los campos.
+2. Damos click en la opción de "Reducir filas" situada en la pestañada de "Inicio",
+luego, en "Quitar filas" y por último en "Quitar filas superiores" donde indicaremos
+que sólo la primera fila escribiendo 1.
+3. Finalmente, damos click en la opción "Usar la primera fila como encabezado", en 
+"Inicio".
+
+Podemos modificar el nombre de las columnas dando doble click sobre el encabezado,
+en este caso, cambiaremos el nombre "default payment next month" por "DEFAULTED" y
+"North Carolina" por "STATE".
+
+Por último, damos click en "Cerrar y aplicar" para que se guarden los cambios.

@@ -1,0 +1,30 @@
+Para transformar los datos de una columna, nos vamos a "Transformar datos" y de ahí, seleccionamos
+toda la columna y nos vamos a la pestaña de "Inicio" donde arriba de la opción "Usar la primera fila
+como encabezado", hallaremos la opción "Tipo de datos" donde podremos escoger el tipo de dato de la
+columna que seleccionemos previamente.
+En este caso, cambiaremos el tipo de dato del campo "SEX" de número entero a texto.
+
+Para reemplazar los valores dentro de una columna, tenemos la opción "Reemplazar los valores" en la
+pestaña de "Inicio". Una vez le demos click, tendremos dos campos de texto: "Valor que buscar" y 
+"Reemplazar con"; en "Valor que buscar" introducimos el valor que queremos reemplazar en nuestra
+columna, y "Reemplazar con" el valor con el que sustituíremos ese valor.
+Para el campo "SEX" reemplazaremos los valores 1 y 2 por Male y Female, respectivamente.
+
+Podemos crear columnas condicionales:
+1. Situarse en la pestaña "Agregar columna" y damos clicl sobre la opción "Columna condicional".
+2. Se nos abrirá una ventana llamada "Agregar una columna condicional" donde tenemos los siguientes
+campos:
+	- Nuevo nombre de la columna: Aquí escribiremos el nombre de neustra columna condicional.
+	- Nombre de columna: Aquí seleccionamos el campo o columna de la cual aplicaremos la condición.
+	- Operador: El tipo de operador con el que aplicaremos la condición.
+	- Valor: El valor dentro del campo o columna respecto al que se aplicará la condición.
+	- Salida: El valor que se dará a la nueva columna cuando se cumpla la condición.
+Podemos agregar cuantas condiciones necesitemos con la opción "Agregar clausula".
+3. En el campo de texto "De lo contrario" escribiremos el valor que se le dará a todos los valores
+que no cumplan la condición.
+4. Damos "Aceptar" y situamos la nueva columna donde deseamos.
+
+Agregaremos las columnas condicionales de acuerdo a las mostradas en el documento "Transforming
+the Data.docx" con los siguientes nombres: EDUCATION LEVEL y MARITAL STATUS, respecto al orden en
+el que aparecen los cuadros en el documento. Después, eliminamos los campos "EDUCATION" y
+"MARRIAGE" dando click derecho sobre la columna y seleccionando "Quitar".
